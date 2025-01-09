@@ -1,0 +1,12 @@
+## Copilot
+Certainly! Let's complete the table for boron trifluoride (BF₃) based on the information provided:
+
+Property 	Value 	
+Formula of compound 	BF₃ 	
+Lewis Structure 	Boron (B) is the central atom surrounded by three fluorine (F) atoms, each connected by a single bond. There are no lone pairs on the boron atom. 	
+Bond Angles 	Approximately 120° 	
+# Of bonding e⁻ groups (central atom) 	3 	
+# Of non-bonding e⁻ groups (central atom) 	0 (no lone pairs on boron) 	
+# Of total electron groups (central atom) 	3 	
+
+Boron trifluoride (BF₃) has a trigonal planar geometry, with the boron atom at the center bonded to three fluorine atoms. 🧪🔍

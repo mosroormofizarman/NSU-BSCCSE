@@ -1,0 +1,35 @@
+1. 
+If a calss doesn't consist of any
+constructor method, compiler adds
+a no-args constructor.
+2.
+But, if a class consists of any 
+parameterized (with arguments) 
+constructor, compiler doesn't add a
+no-args constructor.
+3.
+When a constructor method is about
+to be executed, compiler first checks
+if there is any super/parent/base
+class of the current class. If yes, 
+compiler follows the rules below:
+   3.1 
+   If there is any call to the
+   parameterized constructor of 
+   current class,parameterized 
+   constructor is called (invoked).
+   3.2
+   Otherwise, the no args constructor
+   of the super/parent/base class is
+   called (invoked).
+  
+        
+
+
+
+
+
+
+
+
+
