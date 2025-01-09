@@ -1,0 +1,160 @@
+import numpy as np
+
+class Node():
+    def __init__(self,state,parent,action,depth):
+        self.state = state 
+        self.parent = parent 
+        self.action = action 
+        self.depth = depth 
+        
+        # children node
+        self.moveUp = None 
+        self.moveLeft = None
+        self.moveDown = None
+        self.moveRight = None
+
+    def try_Moving_Up(self):
+        
+        zero_index=[i[0] for i in np.where(self.state==0)] 
+        if zero_index[0] == 0:
+            return False
+        else:
+            up = self.state[zero_index[0]-1,zero_index[1]]
+            newState = self.state.copy()
+            newState[zero_index[0],zero_index[1]] = up
+            newState[zero_index[0]-1,zero_index[1]] = 0
+            return newState,up
+        
+   
+    def try_Moving_Left(self):
+        zero_index=[i[0] for i in np.where(self.state==0)] 
+        if zero_index[1] == 0:
+            return False
+        else:
+            left = self.state[zero_index[0],zero_index[1]-1] 
+            newState = self.state.copy()
+            newState[zero_index[0],zero_index[1]] = left
+            newState[zero_index[0],zero_index[1]-1] = 0
+            return newState,left
+        
+ 
+    def try_Moving_Down(self):
+        zero_index=[i[0] for i in np.where(self.state==0)] 
+        if zero_index[0] == 2:
+            return False
+        else:
+            down = self.state[zero_index[0]+1,zero_index[1]] 
+            newState = self.state.copy()
+            newState[zero_index[0],zero_index[1]] = down
+            newState[zero_index[0]+1,zero_index[1]] = 0
+            return newState,down
+        
+
+    def try_Moving_Right(self):
+        zero_index=[i[0] for i in np.where(self.state==0)] 
+        if zero_index[1] == 2:
+            return False
+        else:
+            right = self.state[zero_index[0],zero_index[1]+1] 
+            newState = self.state.copy()
+            newState[zero_index[0],zero_index[1]] = right
+            newState[zero_index[0],zero_index[1]+1] = 0
+            return newState,right
+    
+
+    def print_Nodes(self):
+      
+        trace_State = [self.state]
+        trace_Action = [self.action]
+        trace_Depth = [self.depth]
+       
+    
+        while self.parent:
+            self = self.parent
+
+            trace_State.append(self.state)
+            trace_Action.append(self.action)
+            trace_Depth.append(self.depth)
+          
+     
+        steps = 0
+        while trace_State:
+            print('step',steps)
+            print(trace_State.pop())
+            print('action=',trace_Action.pop(),', depth=',str(trace_Depth.pop()),'\n')
+            
+            steps += 1
+            
+    def DFS(self, goalState):
+        
+        queue = [self] 
+        popped_nodes = 0 
+        queue_max_length = 1 
+        
+        queue_depth = [0] 
+        
+        visited_states = set([]) 
+        
+        while queue:
+            
+            if len(queue) > queue_max_length:
+                queue_max_length = len(queue)
+                
+            CurrentNode = queue.pop(0) 
+            popped_nodes += 1 
+            
+            currentDepth = queue_depth.pop(0) 
+            visited_states.add(tuple(CurrentNode.state.reshape(1,9)[0])) 
+            
+           
+            if np.array_equal(CurrentNode.state,goalState):
+                CurrentNode.print_Nodes()
+                            
+                return True
+            
+            else:                
+            
+                if CurrentNode.try_Moving_Up():
+                    newState,up = CurrentNode.try_Moving_Up()
+      
+                    if tuple(newState.reshape(1,9)[0]) not in visited_states:
+       
+                        CurrentNode.moveDown = Node(state=newState,parent=CurrentNode,action='down',depth=currentDepth+1)
+                        queue.insert(0,CurrentNode.moveDown)
+                        queue_depth.insert(0,currentDepth+1)
+            
+                if CurrentNode.try_Moving_Left():
+                    newState,left = CurrentNode.try_Moving_Left()
+                   
+                    if tuple(newState.reshape(1,9)[0]) not in visited_states:
+                        
+                        CurrentNode.moveRight = Node(state=newState,parent=CurrentNode,action='right',depth=currentDepth+1)
+                        queue.insert(0,CurrentNode.moveRight)
+                        queue_depth.insert(0,currentDepth+1)
+              
+                if CurrentNode.try_Moving_Down():
+                    newState,down = CurrentNode.try_Moving_Down()
+                   
+                    if tuple(newState.reshape(1,9)[0]) not in visited_states:
+                      
+                        CurrentNode.moveUp = Node(state=newState,parent=CurrentNode,action='up',depth=currentDepth+1)
+                        queue.insert(0,CurrentNode.moveUp)
+                        queue_depth.insert(0,currentDepth+1)
+
+             
+                if CurrentNode.try_Moving_Right():
+                    newState,right = CurrentNode.try_Moving_Right()
+                
+                    if tuple(newState.reshape(1,9)[0]) not in visited_states:
+                       
+                        CurrentNode.moveLeft = Node(state=newState,parent=CurrentNode,action='left',depth=currentDepth+1)
+                        queue.insert(0,CurrentNode.moveLeft)
+                        queue_depth.insert(0,currentDepth+1)
+
+
+initial_state =np.array([1,2,3,4,8,0,7,6,5]).reshape(3,3)
+goal_state = np.array([1,2,3,4,5,6,7,8,0]).reshape(3,3)
+
+root = Node(state=initial_state,parent=None,action=None,depth=0)
+
+root.DFS(goal_state) 
