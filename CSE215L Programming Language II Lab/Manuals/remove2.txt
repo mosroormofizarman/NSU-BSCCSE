@@ -1,0 +1,76 @@
+import java.util.Scanner;
+import java.util.*;
+import java.io.FileWriter;
+import java.io.IOException;
+class Members{
+public String name;
+private String id;
+Members(String name){
+
+   this.name=name;
+}
+}
+public class Main3 {
+
+   public static void main(String[] args)throws IOException
+   {
+       Scanner input=new Scanner(System.in);
+       System.out.println("how many names do you want to add");
+       int n= input.nextInt();int i=0;
+       Members c[]=new Members[n];
+       System.out.println("enter all the names");
+       for( i=0;i<n;i++)
+       {
+              c[i]=new Members(input.next());
+       }
+       System.out.println();
+       FileWriter write_name = new FileWriter("C:\\Users\\commo\\Downloads\\File.txt"); //creating and opening file
+       for(i = 0;i<n;i++)
+   {
+       write_name.write(c[i].name+"\n");
+   }
+   write_name.close();// file closed
+   System.out.println("Names written to the file");
+   System.out.print("Enter Element to be deleted : ");
+   String elem =input.next();
+   System.out.println();
+   int index=-1;
+   for(i = 0;i<n;i++)
+   {
+       if((c[i].name).equals(elem))
+           index = i;
+   }
+   if(index!=-1)
+   {
+       if(index == n-1)
+       {
+           c[index] = null;
+       }
+       else
+       {
+           for(i = index;i<n-1;i++)
+           {
+               c[i]=c[i+1];
+           }
+           c[n-1] = null;
+       }
+       FileWriter delete_name = new FileWriter("C:\\Users\\commo\\Downloads\\File.txt");//opening the file
+       for(i = 0;i<n && (c[i]!=null);i++)
+       {
+           delete_name.write(c[i].name+"\n");
+       }
+       delete_name.close();
+       System.out.println("Name removed from file");
+   }
+   else
+   {
+   System.out.print("Element not present in array\n");
+   }
+  
+   System.out.println("Final array:");
+   for(i = 0;i<n && (c[i]!=null);i++)
+   {
+   System.out.print(c[i].name+",");
+   }
+}
+}

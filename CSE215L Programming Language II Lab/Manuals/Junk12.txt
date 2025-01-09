@@ -1,0 +1,84 @@
+public abstract class Salary {
+abstract double yearlySalary();
+abstract double yearlyBonus();
+abstract double yearlyNetIncome();
+}
+public interface PayableTax {
+int TAXPERCENTAGE = 15;
+double yearlyTaxfreeIncome();
+double yearlyTaxableIncome();
+double getIncomeTax();
+}
+public class Employee extends Salary implements PayableTax {
+String Name;
+String Gender;
+String NID;
+String TIN;
+double MonthlySalary;
+public Employee(String name, String gender, String NID, String TIN) {
+Name = name;
+Gender = gender;
+this.NID = NID;
+this.TIN = TIN;
+}
+public String getName() {
+return Name;
+}
+public String getGender() {
+return Gender;
+}
+public String getNID() {
+return NID;
+}
+public String getTIN() {
+return TIN;
+}
+public void setMonthlySalary(double monthlySalary) {
+MonthlySalary = monthlySalary;
+}
+@Override
+public String toString() {
+return super.toString();
+}
+@Override
+public double yearlyTaxfreeIncome() {
+if (getGender() == "Male")
+return 300000;
+else
+return 450000;
+}
+@Override
+public double yearlyTaxableIncome() {
+return yearlyNetIncome() - yearlyTaxfreeIncome();
+}
+@Override
+public double getIncomeTax() {
+return TAXPERCENTAGE * yearlyTaxableIncome() / 100.0;
+}
+@Override
+double yearlySalary() {
+return 12 * MonthlySalary;
+}
+@Override
+double yearlyBonus() {
+return 0;
+}
+@Override
+double yearlyNetIncome() {
+return yearlySalary() + yearlyBonus();
+}
+}
+public class Faculty extends Employee {
+double basicSalary;
+double allowance;
+public Faculty(String name, String gender, String NID, String TIN, double basic) {
+super(name, gender, NID, TIN);
+this.basicSalary = basic;
+}
+public double getBasicSalary() {
+return basicSalary;
+}
+public void setAllowance() {
+this.allowance = basicSalary * 0.5;
+}
+}

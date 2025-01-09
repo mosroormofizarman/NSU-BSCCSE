@@ -1,0 +1,54 @@
+#include <iostream>
+#include "dynarr.h"
+using namespace std;
+
+int main()
+{
+//Declaring an object of class dynArr
+//Name of the object is myArray
+dynArr myArray();
+dynArr myArray2(5);
+
+//taking inputs and saving to the array
+int i;
+cout << "Please enter an integer value: ";
+cin >> i;
+cout << "The value you entered is " << i;
+myArray2.setValue(0, i);
+cout << "Please enter an integer value: ";
+cin >> i;
+cout << "The value you entered is " << i;
+myArray2.setValue(1, i);
+
+cout << "Please enter an integer value: ";
+cin >> i;
+cout << "The value you entered is " << i;
+myArray2.setValue(2, i);
+
+cout << "Please enter an integer value: ";
+cin >> i;
+cout << "The value you entered is " << i;
+myArray2.setValue(3, i);
+
+cout << "Please enter an integer value: ";
+cin >> i;
+cout << "The value you entered is " << i;
+myArray2.setValue(4, i);
+
+//retrieving elements values from array
+int value0 = myArray2.getValue(0);
+int value1 = myArray2.getValue(1);
+int value2 = myArray2.getValue(2);
+int value3 = myArray2.getValue(3);
+int value4 = myArray2.getValue(4);
+
+//printing the elements
+cout << "value of index : " << value0 << endl;
+cout << "value of index :" << value1 << endl;
+cout << "value of index :" << value2 << endl;
+cout << "value of index :" << value3 << endl;
+cout << "value of index :" << value4 << endl;
+
+
+return 0;
+}

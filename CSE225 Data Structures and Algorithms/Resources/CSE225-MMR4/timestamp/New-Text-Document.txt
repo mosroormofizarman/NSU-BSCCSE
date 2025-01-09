@@ -1,0 +1,180 @@
+main.cpp=
+
+#include <iostream>
+#include"QueType.cpp"
+
+using namespace std;
+
+int main()
+{
+    int number_of_coin, temp, value;
+    cout<<"Number of coins"<<endl;
+
+    cin>>number_of_coin;
+
+    QueType<int> cion, que, cost;
+
+    int cion_arry[number_of_coin];
+
+    cout<<"Enter the input:"<<endl;
+
+    for(int i=0; i<number_of_coin; i++)
+    {
+        cin>>temp;
+        cion_arry[i]=temp;
+    }
+
+    cout<<"The amount of money have to make:"<<endl;
+    cin>>value;
+
+    que.Enqueue(0);
+    cost.Enqueue(0);
+
+    int cur_cion, tem_que=0, tem_cost;
+
+    while(tem_que!=value)
+    {
+        que.Dequeue(tem_que);
+
+        cost.Dequeue(tem_cost);
+
+        for(int i=0; i<number_of_coin; i++)
+        {
+            cur_cion=cion_arry[i];
+
+            que.Enqueue(tem_que+cur_cion);
+
+            cost.Enqueue(tem_cost+1);
+        }
+
+
+    }
+
+
+    cout<<"The output is: "<<endl;
+
+    cout<<tem_cost<<endl;
+
+    cout<<endl;
+
+
+
+
+
+
+}
+
+
+
+QueType.h=
+#ifndef QUETYPE_H_INCLUDED
+#define QUETYPE_H_INCLUDED
+class FullQueue
+{};
+class EmptyQueue
+{};
+template <class ItemType>
+class QueType
+{
+    struct NodeType
+    {
+        ItemType info;
+        NodeType* next;
+    };
+public:
+    QueType();
+    ~QueType();
+    void MakeEmpty();
+    void Enqueue(ItemType);
+    void Dequeue(ItemType&);
+    bool IsEmpty();
+    bool IsFull();
+private:
+    NodeType *front, *rear;
+};
+#endif // QUETYPE_H_INCLUDED
+
+
+QueType.cpp=
+
+#include "QueType.h"
+#include <iostream>
+using namespace std;
+template <class ItemType>
+QueType<ItemType>::QueType()
+{
+    front = NULL;
+    rear = NULL;
+}
+template <class ItemType>
+bool QueType<ItemType>::IsEmpty()
+{
+    return (front == NULL);
+}
+template<class ItemType>
+bool QueType<ItemType>::IsFull()
+{
+    NodeType* location;
+    try
+    {
+        location = new NodeType;
+        delete location;
+        return false;
+    }
+    catch(bad_alloc& exception)
+    {
+        return true;
+    }
+}
+
+template <class ItemType>
+void QueType<ItemType>::Enqueue(ItemType newItem)
+{
+    if (IsFull())
+        throw FullQueue();
+    else
+    {
+        NodeType* newNode;
+        newNode = new NodeType;
+        newNode->info = newItem;
+        newNode->next = NULL;
+        if (rear == NULL)
+            front = newNode;
+        else
+            rear->next = newNode;
+        rear = newNode;
+    }
+}
+template <class ItemType>
+void QueType<ItemType>::Dequeue(ItemType& item)
+{
+    if (IsEmpty())
+        throw EmptyQueue();
+    else
+    {
+        NodeType* tempPtr;
+        tempPtr = front;
+        item = front->info;
+        front = front->next;
+        if (front == NULL)
+            rear = NULL;
+        delete tempPtr;
+    }
+}
+template <class ItemType>
+void QueType<ItemType>::MakeEmpty()
+{
+    NodeType* tempPtr;
+    while (front != NULL)
+    {
+        tempPtr = front;
+        front = front->next;
+        delete tempPtr;
+    }
+    rear = NULL;
+}
+template <class ItemType>
+QueType<ItemType>::~QueType()
+{
+    MakeEmpty();
+}

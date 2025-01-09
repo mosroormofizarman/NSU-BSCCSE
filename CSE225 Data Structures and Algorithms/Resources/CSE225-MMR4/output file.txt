@@ -1,0 +1,262 @@
+--------------
+Customers In Shop
+[ ]
+
+Customers Waiting In Line
+[ ]
+
+Seat Stack
+[ X, X, X, X, X]
+
+--------------
+ARRIVE JOHN
+--------------
+Customers In Shop
+[ JOHN ]
+
+Customers Waiting In Line
+[ ]
+
+Seat Stack
+[ X, X, X, X]
+
+--------------
+ARRIVE MARY
+--------------
+Customers In Shop
+[ JOHN, MARY ]
+
+Customers Waiting In Line
+[ ]
+
+Seat Stack
+[ X, X, X]
+
+--------------
+ARRIVE MIKE
+--------------
+Customers In Shop
+[ JOHN, MARY, MIKE ]
+
+Customers Waiting In Line
+[ ]
+
+Seat Stack
+[ X, X]
+
+--------------
+ARRIVE JOAN
+--------------
+Customers In Shop
+[ JOHN, MARY, MIKE, JOAN ]
+
+Customers Waiting In Line
+[ ]
+
+Seat Stack
+[ X]
+
+--------------
+ARRIVE GEORGE
+--------------
+Customers In Shop
+[ JOHN, MARY, MIKE, JOAN, GEORGE ]
+
+Customers Waiting In Line
+[ ]
+
+Seat Stack
+[ ]
+
+--------------
+LEAVE JOHN
+--------------
+Customers In Shop
+[ MARY, MIKE, JOAN, GEORGE ]
+
+Customers Waiting In Line
+[ ]
+
+Seat Stack
+[ X]
+
+--------------
+LEAVE JOAN
+--------------
+Customers In Shop
+[ MARY, MIKE, GEORGE ]
+
+Customers Waiting In Line
+[ ]
+
+Seat Stack
+[ X, X]
+
+--------------
+ARRIVE KRAMER
+--------------
+Customers In Shop
+[ MARY, MIKE, GEORGE, KRAMER ]
+
+Customers Waiting In Line
+[ ]
+
+Seat Stack
+[ X]
+
+--------------
+ARRIVE JERRY
+--------------
+Customers In Shop
+[ MARY, MIKE, GEORGE, KRAMER, JERRY ]
+
+Customers Waiting In Line
+[ ]
+
+Seat Stack
+[ ]
+
+--------------
+ARRIVE ELAINE
+--------------
+Customers In Shop
+[ MARY, MIKE, GEORGE, KRAMER, JERRY ]
+
+Customers Waiting In Line
+[ ELAINE ]
+
+Seat Stack
+[ ]
+
+--------------
+LEAVE MIKE
+--------------
+Customers In Shop
+[ MARY, GEORGE, KRAMER, JERRY, ELAINE ]
+
+Customers Waiting In Line
+[ ]
+
+Seat Stack
+[ ]
+
+--------------
+LEAVE MARY
+--------------
+Customers In Shop
+[ GEORGE, KRAMER, JERRY, ELAINE ]
+
+Customers Waiting In Line
+[ ]
+
+Seat Stack
+[ X]
+
+--------------
+LEAVE KRAMER
+--------------
+Customers In Shop
+[ GEORGE, JERRY, ELAINE ]
+
+Customers Waiting In Line
+[ ]
+
+Seat Stack
+[ X, X]
+
+--------------
+ARRIVE STARBUCK
+--------------
+Customers In Shop
+[ GEORGE, JERRY, ELAINE, STARBUCK ]
+
+Customers Waiting In Line
+[ ]
+
+Seat Stack
+[ X]
+
+--------------
+ARRIVE HELO
+--------------
+Customers In Shop
+[ GEORGE, JERRY, ELAINE, STARBUCK, HELO ]
+
+Customers Waiting In Line
+[ ]
+
+Seat Stack
+[ ]
+
+--------------
+ARRIVE APPOLLO
+--------------
+Customers In Shop
+[ GEORGE, JERRY, ELAINE, STARBUCK, HELO ]
+
+Customers Waiting In Line
+[ APPOLLO ]
+
+Seat Stack
+[ ]
+
+--------------
+ARRIVE MADMAX
+--------------
+Customers In Shop
+[ GEORGE, JERRY, ELAINE, STARBUCK, HELO ]
+
+Customers Waiting In Line
+[ APPOLLO, MADMAX ]
+
+Seat Stack
+[ ]
+
+--------------
+ARRIVE INDIANA
+--------------
+Customers In Shop
+[ GEORGE, JERRY, ELAINE, STARBUCK, HELO ]
+
+Customers Waiting In Line
+[ APPOLLO, MADMAX, INDIANA ]
+
+Seat Stack
+[ ]
+
+--------------
+ARRIVE HOMER
+--------------
+Customers In Shop
+[ GEORGE, JERRY, ELAINE, STARBUCK, HELO ]
+
+Customers Waiting In Line
+[ APPOLLO, MADMAX, INDIANA, HOMER ]
+
+Seat Stack
+[ ]
+
+--------------
+ARRIVE LINA
+--------------
+Customers In Shop
+[ GEORGE, JERRY, ELAINE, STARBUCK, HELO ]
+
+Customers Waiting In Line
+[ APPOLLO, MADMAX, INDIANA, HOMER, LINA ]
+
+Seat Stack
+[ ]
+
+--------------
+CLOSE
+Customers In Shop
+[ GEORGE, JERRY, ELAINE, STARBUCK, HELO ]
+
+Customers Waiting In Line
+[ APPOLLO, MADMAX, INDIANA, HOMER, LINA ]
+
+Seat Stack
+[ ]
+
+End of processing.

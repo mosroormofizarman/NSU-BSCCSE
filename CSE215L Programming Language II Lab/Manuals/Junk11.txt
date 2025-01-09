@@ -1,0 +1,179 @@
+package cse215_lab_tasks_06;
+
+import java.util.Scanner;
+
+class Fraction {
+	private int numerator, denominator;
+	public int a1, b1; 
+	
+	public Fraction(int numerator, int denominator) {
+		this.numerator = numerator;
+		this.denominator = denominator;
+	}
+	
+	public int getNumberator() {
+		return this.numerator;
+	}
+	
+	public int getDenominator() {
+		return this.denominator;
+	}
+	
+	public void setNumberator(int numerator) {
+		this.numerator = numerator;
+	}
+	
+	public void setDenominator(int denominator) {
+		this.denominator = denominator;
+	}
+	
+	public String toString() {
+		return this.numerator + "/" + this.denominator;
+	}
+	
+	static int gcd(int a, int b) {
+		int a1 = a;
+		int b1 = b;
+		int c = 0;
+		
+		for(int i=1; i<=a1 && i<=b1; ++i) {
+			if((a1%i == 0) && (b1%i ==0)) {
+				c = i;
+			}
+		}
+		return c;
+	}
+	
+	static int lcm(int d, int e) {
+		int d1 = d;
+		int e1 = e;
+		
+		return (d1*e1)/gcd(d1, e1);
+	}
+	
+	public void add(Fraction fraction) {
+		int onenumerator = 0;
+		int twonumerator = 0;
+		int onedenominator = lcm(this.denominator, fraction.denominator);
+		
+		if((onedenominator >= this.denominator) && (onedenominator%this.denominator == 0)) {
+			onenumerator = 	(this.numerator*(onedenominator/this.denominator));	
+		}
+		else if((this.denominator < onedenominator) && (this.denominator%onedenominator == 0)) {
+			onenumerator = 	(this.numerator*(this.denominator/onedenominator));
+		}
+		else {
+			onenumerator = 	(this.numerator*onedenominator);
+		}
+		
+		if((onedenominator >= fraction.denominator) && (onedenominator%fraction.denominator == 0)) {
+			twonumerator = 	(fraction.numerator*(onedenominator/fraction.denominator));	
+		}
+		else if((fraction.denominator < onedenominator) && (fraction.denominator%onedenominator == 0)) {
+			twonumerator = 	(fraction.numerator*(fraction.denominator/onedenominator));
+		}
+		else {
+			twonumerator = 	(fraction.numerator*onedenominator);
+		}
+		
+		this.numerator = (onenumerator + twonumerator);
+		this.denominator = onedenominator;
+		
+		int commonfactor = gcd(numerator,denominator);
+		
+		this.numerator /= commonfactor;
+		this.denominator /= commonfactor;
+	}
+	
+	public void sub(Fraction fraction) {
+		int onenumerator = 0;
+		int twonumerator = 0;
+		int onedenominator = lcm(this.denominator, fraction.denominator);
+		
+		if((onedenominator >= this.denominator) && (onedenominator%this.denominator == 0)) {
+			onenumerator = 	(this.numerator*(onedenominator/this.denominator));	
+		}
+		else if((this.denominator < onedenominator) && (this.denominator%onedenominator == 0)) {
+			onenumerator = 	(this.numerator*(this.denominator/onedenominator));
+		}
+		else {
+			onenumerator = 	(this.numerator*onedenominator);
+		}
+		
+		if((onedenominator >= fraction.denominator) && (onedenominator%fraction.denominator == 0)) {
+			twonumerator = 	(fraction.numerator*(onedenominator/fraction.denominator));	
+		}
+		else if((fraction.denominator < onedenominator) && (fraction.denominator%onedenominator == 0)) {
+			twonumerator = 	(fraction.numerator*(fraction.denominator/onedenominator));
+		}
+		else {
+			twonumerator = 	(fraction.numerator*onedenominator);
+		}
+		
+		this.numerator = (onenumerator - twonumerator);
+		this.denominator = onedenominator;
+		
+		int commonfactor = gcd(numerator,denominator);
+		
+		this.numerator /= commonfactor;
+		this.denominator /= commonfactor;
+	}
+	
+	public void multiplication(Fraction fraction) {
+		this.numerator = (this.numerator*fraction.numerator);
+		this.denominator = (this.denominator*fraction.denominator);
+		
+		int commonfactor = gcd(numerator,denominator);
+		
+		this.numerator /= commonfactor;
+		this.denominator /= commonfactor;
+	}
+
+	public void division(Fraction fraction) {
+		this.numerator = (this.numerator*fraction.denominator);
+		this.denominator = (this.denominator*fraction.numerator);
+		
+		
+		int commonfactor = gcd(numerator,denominator);
+		
+		this.numerator /= commonfactor;
+		this.denominator /= commonfactor;
+	}
+	
+}
+
+public class OOP_Add_Substract_Multiply_Divide {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int num1 = input.nextInt();
+		int deno1 = input.nextInt();
+		int num2 = input.nextInt();
+		int deno2 = input.nextInt();
+		
+		Fraction f1 = new Fraction(num1, deno1);
+		Fraction f2 = new Fraction(num2, deno2);
+		
+		System.out.println(f1.toString());
+		System.out.println(f2.toString());
+		System.out.println("\n");
+		
+		
+		f1.add(f2);
+		System.out.println(f1.toString());
+		System.out.print("\n");
+		
+		f1.sub(f2);
+		System.out.println(f1.toString());
+		System.out.print("\n");
+		
+		f1.multiplication(f2);
+		System.out.println(f1.toString());
+		System.out.print("\n");
+		
+		f1.division(f2);
+		System.out.println(f1.toString());
+		System.out.print("\n");
+		
+		input.close();
+	}
+}

@@ -1,0 +1,31 @@
+Size(N) = 6
+
+10 3 21 
+
+Max = 3
+item = 45
+if(MAX==N)
+print(Overflow/Cannot insert new value)
+LA[MAX] = ITEM
+MAX++ (MAX = 4)
+Exit
+==========
+Deleting by index
+k is the index
+Delete(LA,N,k){
+for(i=k;i<N;i++){
+LA[k] = LA[k+1];
+}
+N=N-1;
+EXIT
+
+7 2 4 10 11 15
+N=6
+k=3
+LA[3] = LA[3+1]
+
+7 2 4 11 15 NULL
+N = 6-1 = 5
+N=5
+a[N]
+N=N-1=5

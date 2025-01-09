@@ -1,0 +1,25 @@
+Sir hw
+
+https://www.chegg.com/homework-help/questions-and-answers/assignment-formulate-problem-solve-using-following-algorithm-need-use-following-data-struc-q82949971
+
+
+Apu q1.1
+
+https://www.chegg.com/homework-help/questions-and-answers/1-given-unsorted-array-n-integers-n-0-integer-value-x-write-function-returns-zero-based-in-q82754424
+
+
+Apu q1.2
+
+https://www.chegg.com/homework-help/questions-and-answers/given-unsorted-array-n-integers-n-0-integer-value-x-write-function-returns-zero-based-inde-q74841188
+
+Apu q2
+
+https://www.chegg.com/homework-help/questions-and-answers/given-two-unsorted-arrays-integer-numbers-write-function-returns-number-elements-exist-arr-q73535942
+
+Apu q3.1
+
+https://www.chegg.com/homework-help/questions-and-answers/given-two-unsorted-arrays-integer-numbers-write-function-returns-number-elements-exist-arr-q73535942
+
+Apu q3.2
+
+https://www.chegg.com/homework-help/questions-and-answers/3-given-two-unsorted-arrays-integer-numbers-write-function-returns-number-elements-exist-a-q82762957
