@@ -1,0 +1,41 @@
+Suggestion for final exam:
+Chapter-8:
+1. Define atomic radius. How does atomic radius change (a) from left to right across a period and (b) from top to bottom in a group?
+
+2. Define ionic radius. How does the size of an atom change when it is converted to (a) an anion and (b) a cation? Explain why, for isoelectronic ions, the anions are larger than the cations.
+
+3. Define ionization energy. Ionization energy measurements are usually made when atoms are in the gaseous state. Why? Why is the second ionization energy always greater than the first ionization energy for any element?
+
+4. Sketch the outline of the periodic table and show group and period trends in the first ionization energy of the elements. What types of elements have the highest ionization energies and what types the lowest ionization energies?
+
+5. Define electron affinity. Electrons affinity measurements are made with gaseous atoms. Why? Ionization energy is always a positive quantity, whereas electron affinity may be either positive or negative. Explain.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Chapter-9:
+1. Explain with example what is an ionic bond, a covalent bond and a polar covalent bond? Compare single, double, and triple bonds in a molecule, and give an example of each. How many lone pairs are on the underlined atoms in these compounds? HBr, H2S, CH4.
+
+2. What is lattice energy and what role does it play in the stability of ionic compounds? Specify which compound in the following pairs of ionic compounds has the higher lattice energy: (i) KCl or MgO, (ii) LiF or LiBr, (iii) Mg3N2 or NaCl. Explain your answer.
+
+3. Define electronegativity, and explain the difference between electronegativity and electron affinity. Describe in general how the electronegativities of the elements changes according to position in the periodic table.
+
+4. Summarize the essential features of the Lewis octet rule. The octet rule applies to the second-period elements, Explain. What are the exceptions of octet rule? Give examples of each type with Lewis structures.
+
+5. What is bond enthalpy? Bond enthalpies of polyatomic molecules are average values, whereas those of diatomic molecules can be accurately determined. Why? Explain why the bond enthalpy of a molecule is usually defined in terms of a gas-phase reaction. Why are bond-breaking processes always endothermic and bond-forming processes always exothermic?
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Chapter-10:
+1. Discuss the basic features of the VSEPR model. Explain why the magnitude of repulsion decreases in the following order: lone pair-lone pair > lone pair-bonding pair >bonding pair-bonding pair.
+
+2. In the trigonalbipyramidal arrangement, why does a lone pair occupy an equatorial position rather than the axial position?
+
+3. What is valence bond theory? How does it differ from the Lewis concept of chemical bonding?
+
+4. Use the valence bond theory to explain the bonding in Cl2 and HCl. Show how the atomic orbital overlap when a bond is formed. Draw the potential energy curve for the bond formation in H2 and F2.
+
+5. What is the hybridization of the atomic orbitals? What are the assumptions made for the hybridization of atomic orbitals? How does a hybrid orbital differ from a pure atomic orbital? Can two 2porbitals of an atom hybridized to give two hybridized orbitals?
+
+6. What is the angle between the following two hybrid orbitals on the same atom? (i) sp and sp hybrid orbitals, (ii) sp2and sp2 hybrid orbitals, (iii) sp3 and sp3 hybrid orbitals. How would you distinguish between a sigma and a pi bond?
