@@ -1,0 +1,15 @@
+The equations for a nonholonomic integrator are given by,
+(x1)'  (Derivative of x1) = u1
+(x2)' (Derivative of x2)   = u2
+(x3)' (Derivative of x3)  = x2u1
+Assume the system moves from initial time ti = 0 to final time tf = T. Assume the following  initial conditions:
+At ti = 0 when (x1)'(0)(Derivative of x1)=1 and x1(0), x2(0), x3(0) have unknown values.
+At tf = T when (x1)'(T)(Derivative of x1)=1 and x1(T), x2(T), x3(T) have unknown values.
+Using four basis functions, Ψ1 = 1, Ψ2 = t, Ψ3 = t^2, Ψ4 = t^3, write down the matrix-vector equations for this system.[Hint:  differential flatness]
+
+
+https://github.com/PrinciplesofRobotAutonomy/AA274A_HW1
+
+loca123456
+
+jivate6065@storesr.com

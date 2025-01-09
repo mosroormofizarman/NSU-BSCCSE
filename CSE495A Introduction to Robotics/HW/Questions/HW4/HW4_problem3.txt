@@ -1,0 +1,85 @@
+clc;
+clear;
+clear all;
+%% Load Range Data
+% Load Range Data using readtable (showing only one dataset)
+rangeData1 = readtable('rangeData_5_5_180.xlsx', 'ReadVariableNames', false);
+rangeData1 = table2array(rangeData1); % Convert to array
+
+%% Define Parameters
+LINE_POINT_DIST_THRESHOLD = 0.2;  % Adjust based on data
+MIN_POINTS_PER_SEGMENT = 5;
+MIN_SEG_LENGTH = 0.5;
+MAX_P2P_DIST = 0.3;
+
+%% Process Data
+lines1 = splitAndMerge(rangeData1, LINE_POINT_DIST_THRESHOLD, MIN_POINTS_PER_SEGMENT, MIN_SEG_LENGTH, MAX_P2P_DIST);
+
+%% Visualization
+plotSegments(lines1, 'Extracted Lines: Dataset 1');
+
+%% Function Definitions
+function lines = splitAndMerge(rangeData, LINE_POINT_DIST_THRESHOLD, MIN_POINTS_PER_SEGMENT, MIN_SEG_LENGTH, MAX_P2P_DIST)
+    % Convert polar to Cartesian coordinates
+    theta = rangeData(:, 1); % Angles in radians
+    rho = rangeData(:, 2);   % Distances
+    x = rho .* cos(theta);
+    y = rho .* sin(theta);
+    points = [x, y];
+
+    % Recursive function for splitting with added depth limit
+    maxDepth = 100; % Prevent infinite recursion
+    function segments = recursiveSplit(points, depth)
+        if size(points, 1) < MIN_POINTS_PER_SEGMENT || depth > maxDepth
+            segments = {points};
+            return;
+        end
+
+        % Fit a line to the points
+        coeff = polyfit(points(:, 1), points(:, 2), 1);
+        lineFunc = @(x) coeff(1) * x + coeff(2);
+
+        % Compute perpendicular distances
+        distances = abs(points(:, 2) - lineFunc(points(:, 1))) ./ sqrt(1 + coeff(1)^2);
+        [maxDist, maxIdx] = max(distances);
+
+        if maxDist > LINE_POINT_DIST_THRESHOLD && maxIdx > 1 && maxIdx < size(points, 1)
+            % Split only if maxIdx is valid
+            fprintf('Splitting at depth %d, maxDist = %.4f\n', depth, maxDist);
+            segments1 = recursiveSplit(points(1:maxIdx, :), depth + 1);
+            segments2 = recursiveSplit(points(maxIdx:end, :), depth + 1);
+            segments = [segments1, segments2];
+        else
+            % No further splitting needed
+            segments = {points};
+        end
+    end
+
+    % Initial split
+    rawSegments = recursiveSplit(points, 0);
+
+    % Filter and merge segments
+    lines = {};
+    for i = 1:length(rawSegments)
+        seg = rawSegments{i};
+        if size(seg, 1) < MIN_POINTS_PER_SEGMENT || ...
+           sqrt((seg(end, 1) - seg(1, 1))^2 + (seg(end, 2) - seg(1, 2))^2) < MIN_SEG_LENGTH
+            continue;
+        end
+        lines{end + 1} = seg;
+    end
+end
+
+function plotSegments(lines, titleText)
+    figure;
+    hold on;
+    for i = 1:length(lines)
+        seg = lines{i};
+        plot(seg(:, 1), seg(:, 2), '-o');
+    end
+    title(titleText);
+    xlabel('X (m)');
+    ylabel('Y (m)');
+    axis equal;
+    hold off;
+end

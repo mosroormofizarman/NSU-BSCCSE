@@ -1,0 +1,65 @@
+The equations for a nonholonomic integrator are given by,
+(x1)'  (Derivative of x1) = u1
+(x2)' (Derivative of x2)   = u2
+(x3)' (Derivative of x3)  = x2u1
+Show that this system is differentially flat for the flat output z = (x1, x3).
+Assume the system moves from initial time ti = 0 to final time tf = T. Assume the following  initial conditions:
+At ti = 0 when x1(0) = 1, x2(0) = 1, x3(0) = 1, (x1)' (0) (Derivative of x1) = 1
+At tf = T when x1(T) = 1, x2(T) = 1, x3(T) = 1, (x1)' (T) (Derivative of x1) = 1
+Using four basis functions, Ψ1 = 1, Ψ2 = t, Ψ3 = t^2, Ψ4 = t^3, write down the matrix-vector equations for this system.[Hint:  differential flatness]
+Repeat part (b), but this time use six basis functions, Ψ1 = 1, Ψ2 = t, Ψ3 = t^2, Ψ4 = t^3, Ψ5 = t^4, Ψ6 = t^5.
+Plot the trajectory for this system for the following initial conditions. Use the matrix-vector system of part (b) and (c). Submit your code and screenshots.
+(a) At ti = 0 when x1(0) = 1, x2(0) = 1, x3(0) = 0, (x1)' (0) (Derivative of x1) = 1
+      At tf = 10 when x1(10) = 5, x2(10) = 5, x3(10) = 5, (x1)' (10) (Derivative of x1) = 1
+(b) At ti = 0 when x1(0) = 1, x2(0) = 1, x3(0) = 0, (x1)' (0) (Derivative of x1) = 1
+      At tf = 15 when x1(15) = 10, x2(15) = 10, x3(15) = 5, (x1)' (15) (Derivative of x1) = 1
+
+
+
+
+In this problem, first we will generate a trajectory using the differential flatness technique. Then, we will generate the control inputs for the robot to navigate this desired trajectory using open loop controller techniques.
+Consider the equations for the dynamically extended unicycle robot,
+(x)' (t) (Derivative of x) = v(t) cosθ(t)
+(y)' (t) (Derivative of y) = v(t) sinθ(t)
+(v)' (t) (Derivative of v) = a(t) 
+(θ)' (t) (Derivative of θ) = ω(t) 
+The initial conditions are: 
+x(0) = 0, y(0) = 0, v(0) = 0.5, θ(0) = -π/2
+x(tf) = 5, y(tf) = 5, v(tf) = 0.5, θ(tf) = -π/2 where tf = 15
+Here the controls are a(t) and ω(t) .
+Show this system is deferentially flat with flat output z=(x, y).
+Generate a deferentially flat trajectory using the four basis functions Ψ1 = 1, Ψ2 = t, Ψ3 = t^2, Ψ4 = t^3. Plot your generated trajectory.
+We will now navigate our robot along this desired trajectory. To do that we need to compute the controls a(t) and ω(t).
+Notice that differentiating the velocities (x)'(Derivative of x), (y)'(Derivative of y) we get the following equations,
+[ \begin{bmatrix} \ double dot{x}(t) \ \double dot{y}(t) \end{bmatrix}
+\begin{bmatrix} \cos \theta (t) & -V(t) \sin \theta (t) \ \sin \theta (t) & V(t) \cos \theta (t) \end{bmatrix} \begin{bmatrix} a(t) \ w(t) \end{bmatrix} ]
+
+We will now navigate our robot along this desired trajectory. To do that we need to compute the controls a(t) and ω(t) . Notice that differentiating the velocities (x)'(Derivative of x), (y)'(Derivative of y) we get the above equations.
+You can estimate (x)''(Second derivative of x), (y)''(Second derivative of y)  from your generated deferentially flat trajectory. Then a(t) and ω(t) can be calculated by taking the matrix inverse in the equation above.
+Once the controls a(t) and ω(t) are calculated, you can navigate the robot by numerically integrating the unicycle equations using Euler’s method. [Hint:  Open loop motion control and differential flatness]
+Integrate the unicycle equations using Euler’s method, generate the control inputs as described above. Plot the result for time steps ∆t = 0.1 and ∆t = 0.01. You can also try experimenting with other values for the time step. The smaller the time step, the more accurate the result but greater the computation.
+
+
+your robot should track the trajectory perfectly. This is because there is no noise or
+disturbance in the system. If noise and disturbance is present, which is the case for real systems, the robot won’t be able to track the trajectory with an open loop controller. We will see this in this exercise.
+We can randomly inject noise or disturbances into the system using the Gaussian (Normal) distribution.
+Inject noise in the v and θ equations in the following way,
+v(t+∆t) = v(t) + ∆ta(t) + N(0, 0.01)
+θ(t+∆t) = θ(t) + ∆tω(t) + N(0, 0.01)
+
+Here N(0, 0.01) is a random number generated from a Gaussian (Normal) distribution with mean 0 and standard deviation 0.01. Similarly, N(0, 0.001) is a random number generated from a Gaussian distribution with mean 0 and standard deviation 0.001.
+With this noise injection, integrate the unicycle equations using Euler’s method and the open loop controller of the above problem  Plot the result for time step ∆t = 0.01. You should be able to see the robot deviate from the desired trajectory. Submit your code.
+
+
+
+your robot should track the trajectory perfectly. This is because there is no noise or
+disturbance in the system. If noise and disturbance is present, which is the case for real systems, the robot
+won’t be able to track the trajectory with an open loop controller. We will see this in this exercise.
+We can randomly inject noise or disturbances into the system using the Gaussian (Normal) distribu3on.
+Inject noise in the V and q equa3ons in the following way,
+v(t+∆t) = v(t) + ∆ta(t) + 0.01 * randn
+θ(t+∆t) = θ(t) + ∆tω(t) + 0.001 * randn
+Here “0.01 * randn” is a random number generated from a Gaussian distribution with mean 0 and standard
+deviation 0.01. Similarly, “0.001 * randn” is a random number generated from a Gaussian distribution with
+mean 0 and standard deviation 0.001.
+With this noise injection, integrate the unicycle equations using Euler’s method and the open loop controller of the above problem  Plot the result for time step ∆t = 0.01. You should be able to see the robot deviate from the desired trajectory. Submit your code.

@@ -1,0 +1,33 @@
+Ques 2)
+Simulate the differential equations for the unicycle robot model using Euler’s method for t ∈ [0, 10]
+and time step Δt = 0.1. Use the following control input:
+
+v = 1 0 < t <10
+
+w = 3 0.5 < t < 1.5
+w = -3 2 < t < 3
+w = -3 4 < t < 5
+w = 3 6 < t < 7
+w = -3 8 < t < 9
+w = 0 all other t
+
+With initial conditions x(0) = 0, y(0) = 0, q(0) = 1.
+Plot x vs y, x vs t, y vs t and q vs t. Submit your code and plots.
+Feel free to simulate different ini3al condi3ons and control input sequences to gain a greater
+understanding.
+
+Ques 3)
+Simulate the differential equations for the unicycle robot model using Euler’s method for t ∈ [0, 10]
+and time step Δt = 0.1. Use the following control input:
+
+wt = 12 4 < t < 6
+wt = 12 6 < t < 8
+wt = 1 all other t
+wr = 12 0.5 < t < 1.5
+wr = 12 2 < t < 4
+wr = 1 all other t
+
+With initial conditions x(0) = 0, y(0) = 0, q(0) = 1.
+Plot x vs y, x vs t, y vs t and q vs t. Submit your code and plots.
+Feel free to simulate different ini3al condi3ons and control input sequences to gain a greater
+understanding.

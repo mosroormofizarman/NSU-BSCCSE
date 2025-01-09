@@ -1,0 +1,54 @@
+2) Simulate the dofferential equations for the unicycle robot model using Eucler's Model for t belongs to [0,10] and time step deltat = 0.1. use the following control input:
+v = 1 where 0 <= t <= 10
+
+w = 3, 0.5 <= t <= 1.5
+w = -3, 2 <= t <= 3
+w = -3, 4 <= t <= 5
+w = 3, 6 <= t <= 7
+w = -3, 8 <= t <= 9
+w = 0, all other t
+
+where w means omega
+
+with initial conditions x(0) = 0, y(0) = 0, thetha(0) = 1
+
+Can you do the Euclers Method math for me?
+
+Now do the code for me and explain the code.
+
+
+3) Simulate the differential equations for the differential drive robot model using Eucler's Model for t belongs to [0,10] and time step deltat = 0.1. use the following control input:
+v = 1 where 0 <= t <= 10
+
+w = 12, 4 <= t <= 6
+w = 12, 6 <= t <= 8
+w = 1, all other t
+
+w = 12, 0.5 <= t <= 1.5
+w = 12, 2 <= t <= 4
+w = 1, all other t
+
+where w means omega
+
+with initial conditions x(0) = 0, y(0) = 0, thetha(0) = 1
+
+Can you do the Euclers Method math for me?
+
+Now do the code for me and explain the code.
+
+4) The equations for a nonholonomic integrator are given by,
+𝑥1dot = 𝑢1
+𝑥2dot = 𝑢2
+𝑥3dot = 𝑥2𝑢1
+a) Show that this system is differentially flat for the flat output z = (x1, x3).
+b) Assume the system moves from initial time ti = 0 to final time tf = T. Assume the following initial
+conditions:
+At ti = 0, x1(0), x2(0), x3(0), 𝑥3dot (0) = 1
+At tf = T, x1(T), x2(T), x3(T), 𝑥3dot (𝑇) = 1
+Using four basis func3ons, y1 = 1, y2 = t, y3 = t2, y4 = t3, write down the matrix-vector equations for this system. [Hint: Slide 22 in the differential flatness presentation might be helpful]
+c) Plot the trajectory for this system for the following ini3al condi3ons. Submit your code and
+screenshots.
+i) At ti = 0, x1(0) = 1, x2(0) = 1, x3(0) = 0, 𝑥# ̇ (0) = 1
+At tf = 10, x1(10) = 5, x2(10) = 5, x3(10) = 5, 𝑥# ̇ (10) = 1
+ii) At ti = 0, x1(0) = 1, x2(0) = 1, x3(0) = 0, 𝑥# ̇ (0) = 1
+At tf = 15, x1(15) = 10, x2(15) = 10, x3(15) = 5, 𝑥# ̇ (15) = 1

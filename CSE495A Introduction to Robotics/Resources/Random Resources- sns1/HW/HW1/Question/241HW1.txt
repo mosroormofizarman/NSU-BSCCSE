@@ -1,0 +1,34 @@
+1) Write down the state space equations (differential equations) for the following robots. For each robot identify the state variables and the control variables.
+a) Unicycle model
+b) Differential drive robot
+c) Simplified car model
+ii) For a given robot, what do the state variables and control variables represent? Please explain.
+iii) Describe the differences in dynamics between these robot models.
+
+2)Simulate the differential equations for the unicycle robot model using Euler’s method for t∈[0, 10]
+and time step ∆t = 0.1. Use the following control input:
+v = 1  when  0 ≤ t ≤ 10
+w = 3 when  0.5 ≤ t ≤ 1.5
+w = -3 when  2 ≤ t ≤ 3
+w = -3 when  4 ≤ t ≤ 5
+w = 3 when  6 ≤ t ≤ 7
+w = -3 when  8 ≤ t ≤ 9
+w = 0 when  all other t
+With initial conditions x(0) = 0, y(0) = 0, θ(0) = 1.
+a) Plot x vs y, x vs t, y vs t and  θ vs t. Submit your code and plots.
+b) If you plot x vs y for each time step and create a movie of the robot moving in 2D space.
+Feel free to simulate different initial conditions and control input sequences to gain a greater understanding.
+
+3)Simulate the differential equations  for the differential drive robot model using 
+Euler’s method for t∈[0, 10] and time step ∆t = 0.1. Use the following control input:
+wl = 12 when  4 ≤ t ≤ 6
+wl = 12 when  6 ≤ t ≤ 8
+wl = 1 when  all other t
+and
+wr = 12 when  0.5 ≤ t ≤ 1.5
+wr = 12 when  2 ≤ t ≤ 4
+wr = 1 when  all other t
+With  r = 0.1,  L = 1 and initial conditions x(0) = 0, y(0) = 0, θ(0) = 1.
+a) Plot x vs y, x vs t, y vs t and  θ vs t. Submit your code and plots.
+b) If you plot x vs y for each time step and create a movie of the robot moving in 2D space.
+Feel free to simulate different initial conditions and control input sequences to gain a greater understanding.

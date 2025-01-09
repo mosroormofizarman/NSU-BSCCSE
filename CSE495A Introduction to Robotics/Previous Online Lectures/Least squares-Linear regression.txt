@@ -1,0 +1,13 @@
+Least squares/Linear regression
+
+Here are the wikipedia articles on Least squares/Linear regression. In class, we looked at the matrix, vector formulation of the problem. 
+
+https://en.wikipedia.org/wiki/Least_squares
+
+https://en.wikipedia.org/wiki/Linear_regression
+
+https://en.wikipedia.org/wiki/Ordinary_least_squares
+
+Make sure to read the "History" section.
+
+In HW2, I did not mention it, but you solved the least squares problem to find the parameters for the differential flatness trajectory using the pinv command.
