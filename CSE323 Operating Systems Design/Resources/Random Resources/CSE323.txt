@@ -1,0 +1,38 @@
+CHAPTER-1:
+
+1) What are the os responsibilities related to process management? (slide-35)
+=> (6) scheduling the processes and threads. 
+
+2) What are the functionalities and threads? (slide-36)
+3) What are the responsibilities of os related to file management? (slide-38)
+4) Computing Environment- peer to peer.
+5) Computing Environment- Virtualization. 
+
+CHAPTER-2:
+
+1) what are the general method used to pass to the os? (slide-18)
+2)types of system call.(slide-20)
+3) system  program er vaag.(slide-29) 
+4) module structures.(slide-43)
+5) loadable kernrl module er sathe micro kernel, layered Approach er compare and contrast. 
+6) Kernel essentail components. 
+7) different structure of os? Advantage. Disadvantage.
+
+CHAPTER-3: 
+
+1) what is process?? States of process. (Page 7,8) 
+2) context switching (page 19)
+3) interprocess communication (page 29)
+4) message passing model (37) 
+5) separate components of process and how they represent in OS? ( task control block .page 9)  
+
+CHAPTER-4:
+
+1) motivation behind multithread.(page 4)
+2) benefits of Multithread.(page 6)
+3) concurrency vs parallelism. (page 7,8)
+4) Types of parallelism.
+5) Amdahls law. (page 11 )
+6) advantages of thread pool.( page 29)
+7) Thread related topic.
+8) windows thread. (pagee 42,43)

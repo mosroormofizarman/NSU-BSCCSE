@@ -1,0 +1,149 @@
+Model:
+1. Feature engineering
+   PCA/dimensionality reduction/t-SNE 
+2. Model selection
+
+Regression:
+x1 x2 x3 x4 x4 ... xn --> y
+
+feature engineering (selecting subset of features):
+1. x1 x2 --> y
+2. x3 x9 --> y
+3. x1 xn x3 --> y 
+
+How to choose the best models?
+1. Too simple
+   3. In the middle - just right
+2. Too complex
+
+
+bias variance tradeoff
+actual target - y
+predict       - y-hat
+E((y-y-hat)^2) ---- white-noise + f(bias,variance) 
+
+f(bias,variance) properties:
+1. increasing the bias reduces the variance and vice versa
+
+bias up variacen down 
+
+
+
+bias high - cannot explain the training data -- too high error on training data -- model has no power 
+variance high - memorizes the training data -- too high error on test/validataion data -- model has too much power 
+
+
+
+Error/cost/penalty function:
+regression RMSE - root mean square error 
+
+
+Moving average - smoothing - non-parametrci regression agorithm:
+
+2 3 4 3 6 3 4 
+window size: 3
+2 3 4 --> 3
+3 4 3 --> 3.33
+4 3 6 --> 4.33
+
+
+
+
+
+We will predict the amount of insecticides needed to increase the yields of corns 
+
+
+Machine learning problem solution:
+1. Build the model
+2. Predict error on new data (unseen data)
+    (we must have an idea about the underlying distribution)
+
+
+
+k-fold cross validataion:
+Data folds: 1 2 3 4 5
+Traing        test 
+1 2 3 4         5
+2 3 4 5         1
+3 4 5 1         2
+... 
+... 
+
+
+
+fold data points - 0.02 
+
+
+k-fold cross validation:
+for each model in modelzoo
+    1. select model
+    2. predict
+    3. prediction performance --- accuracy 
+
+Based on performaces select a model 
+
+
+classification problem -- simple case -> two class classifier
+
+accuracy p% accuracy 
+
+interclass error distribution 
+       how errors are classified
+       what classes tends to be mixed memorizes
+
+     
+A 
+B 
+
+
+word1-word2-word3
+
+word1 - true/false - prediction correct or wrong
+word2 - positive/negative - what did we predict 
+word3 - rate 
+
+                     Prediction
+Actual class     A            B
+A            count/ratio    count/ratio
+B            count/ratio    count/ratio 
+
+Actual count 
+A - 100
+B - 80
+
+
+
+160/180 --- accuracy 
+
+                     Prediction
+Actual class     A            B
+A               9/10           1/10
+B               10            70  
+
+confusion matrix will give us information about the mis-classification
+we will use the mis-classifications to find the best model 
+
+
+two-step process:
+1. draw the confusion matrix
+2. find the x-y values for the ROC 
+    y - true positive
+    x - false positive 
+
+
+ROC:
+1. We have tp/fp - depending on domain knowledge we can use it 
+2. if the curve is parallel to either the x/y axis we can clearly understand which one is better 
+3. if we can go top left we get better model and moving to bottom right gives us worse model 
+
+for class 0:
+A - 0
+B - 1 2 3 4 5 6 7 8 9
+
+for 1:
+A 1 
+B 0 - 9
+
+  A  B 
+A
+B 

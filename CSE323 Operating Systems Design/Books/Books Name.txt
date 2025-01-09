@@ -1,0 +1,3 @@
+Book1 = Abraham Silberschatz, Greg Gagne, Peter B. Galvin - Operating System Concepts-Wiley (2018)
+
+Book2 = Operating System Concepts 9th Edition

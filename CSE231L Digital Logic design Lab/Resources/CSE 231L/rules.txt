@@ -1,0 +1,31 @@
+Cover page & Guidelines to write the lab report:
+**Printed cover page**
+1. Name of the experiment
+2. Objectives
+3. Theory
+4. Equipment
+5.a) Circuit diagram (clearly drawn with pencil)
+5.b) IC diagram (Only if you are asked to do so in the Manual)
+6. Truth table
+7. Discussion
+8. Question answers
+9. Logisim simulation screen shot(Of the experiment and done by the one who wrote the lab report)
+10. Attachment (signed lab datasheet.)
+
+The Report has to be hand written. The cover should be printed.
+**Please ensure that you are using A4 papers to write the reports and leave some scaled margins in each page.
+You MUST write on BOTH sides of the paper.
+
+You MUST follow the given sequence and provide proper headers to each segment.
+
+Suggestions:
+For theory, half to one or two page about the related topics. Ex: logic gates or universal gates, mux or theorems.
+Use your own words. Direct copy paste from lab manual or other groups will be rewarded with adequate negative marks.
+
+Truth tables are done in the datasheet. I know! But you must write down the tables in segment 6.
+
+Discussion: Most important part of the report. Discuss about the importance and applications of the experiments. Take your time while writing it. That's what an extra week is given for. Study the related materials from internet for further help.
+Discussion should not be less than half a page. Maximum size: 1 or two pages.
+[ Direct copy paste from other groups will be rewarded with direct 0 marks?? ]
+
+There is absolutely NO need for spiral binding.
