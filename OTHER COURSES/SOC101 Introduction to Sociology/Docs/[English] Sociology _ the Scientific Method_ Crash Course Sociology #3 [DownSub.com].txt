@@ -1,0 +1,455 @@
+What puts the “science” in “social science”?
+
+The things you probably think of as “science”
+– like biology, or physics, or chemistry
+
+– can seem a world apart from sociology
+and the concepts we’ve introduced so far.
+
+But sociology is a type of science; it’s
+just not one that uses beakers or microscopes.
+
+Rather than investigating the physical, natural
+world, sociology explores the social world.
+
+Now, there are different schools of thought
+within sociology about the best way to understand
+the social world.
+
+But one of the primary means of conducting
+sociology uses many of the same, basic principles
+and methods as any of your hard, clinical sciences.
+
+Can sociology use the scientific method?
+Check.
+
+Does it rely on empirical data?
+Check.
+
+And graphs?
+Heck yeah!
+
+[Theme Music]
+
+A science is really any practice that uses
+a systematic method of observation to gain
+knowledge.
+
+And you probably know that systematic method
+as the scientific method.
+
+Basically, you come up with some question
+about the world, and then develop a testable theory
+about how you could answer that question.
+
+And you develop and test your theory by gathering
+empirical evidence;
+
+that is, verifiable information that’s collected
+in a systematic way.
+
+Now, whether you’re using it to explore the natural
+world or the social world, the scientific method is
+rooted in the philosophy known as positivism.
+
+First laid out by Auguste Comte – yes, the same
+Auguste Comte that we introduced as the founder
+of sociology a couple episodes ago –
+
+positivism argues that phenomena can be
+studied through direct observation,
+
+and that these observations can be pulled together
+into theories or facts that can help us understand
+how the world works.
+
+Now, you might be wondering where the “positive”
+in “positivist” comes into play.
+
+Was Comte just a glass half-full kinda guy?
+
+Well, “positive” in this case doesn’t refer to optimism,
+and it doesn’t mean “I’m POSITIVE that I’m right!”
+
+Instead, a ‘positive’ theory is one that’s
+objective and fact-based, whereas a ‘normative’
+theory is subjective and value-based.
+
+Which brings us to the first of our three
+types of sociological inquiry:
+
+Positivist sociology, or the study of society based
+on systematic observations of social behavior.
+
+And here, “objective” is the key word.
+
+As scientific researchers, sociologists must
+set aside their own values and beliefs to approach
+their work as neutral observers,
+
+and use empirical evidence to answer
+questions about how the social world works.
+
+So what kind of evidence are you looking for?
+
+If you’re doing quantitative research, you
+want data.
+
+Quantitative research is the study of observable
+relationships in the world, using mathematical
+or statistical methods.
+
+Basically, quantitative evidence is information
+that you can count or tally up.
+
+But this doesn’t just mean number-based
+data, like income or age.
+
+You can also use it to categorize people or
+things, like the state you live in, your gender,
+or your race.
+
+And quantitative evidence can be used in lots
+of different ways.
+
+For example, there’s descriptive data, which
+does just what it sounds like:
+
+It describes facts relevant to the question
+you’re researching.
+
+Like, maybe you want to know how
+income is distributed across households in the
+United States.
+
+Quantitative data are your friend here.
+
+This graph is the distribution of household incomes
+in 2014, produced by the US Census Bureau.
+
+The height of the bars in the graph indicate the
+number of households at a certain income level.
+
+And the point labelled “50th” is an important
+one because it’s the median income, the absolute
+middle observation in the sample.
+
+That means that 50% of households have lower
+incomes than that level, and 50% have higher incomes.
+
+In this case, the median income is $53,700.
+
+But, be careful about the conclusions you
+draw from this graph!
+
+The median may be the observation in the middle,
+but it’s not the same as average household income.
+
+That distinction goes to the mean, which is the sum
+of all the values, divided by the number of observations.
+
+So in 2014, the mean household income was
+$75,700.
+
+That’s a lot higher than the median!
+
+What’s up with that?
+
+Why is there a gap between the mean and the
+median?
+
+Well, think back to the group that the Occupy Wall
+Street movement was concerned with: “the 1%”
+
+That political label is actually a descriptive
+statistic!
+
+It describes the percent of the population
+with the highest income.
+
+And the fact that the income of that 1% is so much
+higher than the incomes of the other 99% – that’s why
+we have a gap between the mean and median.
+
+And I’m not being political here; it’s
+pure mathematics:
+
+If you have 99 people making $50,000 per
+year and 1 person making $50 million per year –
+what’s gonna happen to the mean income?
+
+It’s gonna be pulled way up by the one,
+very rich person.
+
+Even though the mode – or the most common
+observation in your sample – is the same as the median
+income, $50,000, the mean will be over $500,000.
+
+Another type of evidence that sociologists
+use is qualitative data – or information that’s not
+in numerical form.
+
+Where quantitative data try to measure, qualitative
+data try to illustrate, or characterize.
+
+Sometimes the information that you need
+can’t, or shouldn’t, be distilled into a number in
+a spreadsheet.
+
+Instead, you use descriptions of the world,
+gathered through interviews, questionnaires,
+and first-hand observation.
+
+Like, why do some people get married and
+some people commit to a long term partnerships
+without getting married?
+
+Maybe some of that is quantifiable, but a lot of the
+process behind making a decision like that is going to
+come down to how the couple feels about marriage.
+
+And that can’t be easily stated in a statistic.
+
+There are, of course, limitations to sociology
+as a positivist discipline.
+
+Not everything you want to know about society is
+going to fit into observable, measurable categories.
+
+And what’s worse: I don’t know if you’ve noticed this,
+but human beings are pretty unpredictable.
+
+In much of the natural sciences, the
+environment in which research is done in is
+completely controlled by scientists.
+
+Like, microbes in a petri dish: They’re probably
+not going to develop free will and mess around with
+your carefully designed experiment.
+
+But if you’re studying human behavior, you
+can’t control the environment or how your
+subject interacts with that environment.
+
+So if you’re interested in, say, the effects
+of quality parenting on child development,
+you can’t randomly assign babies to parents.
+
+Because, ethics. Parents apparently
+want to raise their own spawn.
+
+But more than that, you might not want to
+be controlling the environment so much.
+
+If you’re interested in how humans behave in the real
+world, you don’t want your research methods to make
+them act differently than they otherwise would.
+
+Because the fact is, subjects might change how
+they behave if they know they’re being observed.
+
+For a really fun and fascinating example of
+this let’s go to the Thought Bubble!
+
+In the late 1920s, Austrian sociologist Elton
+Mayo went to a telephone factory known as
+the Hawthorne Works in Cicero, Illinois.
+
+His goal was to help the Western Electric
+company figure out how to make its workers
+more productive.
+
+So Mayo split the factory staff into groups: a control
+group who kept working under the same conditions as
+always, and an experimental group.
+
+For the experimental group, Mayo made a series
+of changes to their working environment.
+
+He gave them different work hours, changed
+up their rest breaks, even turned up the lights
+on the factory floor.
+
+And lo and behold, the changes seemed to work!
+
+The workers in the experimental group became
+more productive, and absenteeism dropped.
+
+But the truth is, the changes to the physical
+environment weren’t what made the difference.
+
+Yes, brightening up the room made the
+workers more productive – but it turned out,
+so did dimming the lights!
+
+And so did reversing all the other changes
+that Mayo made.
+
+Eventually, Mayo realized that the workers were
+working harder because he was observing them.
+
+The fact that the workers knew someone was
+watching how hard they worked made them want
+to work harder.
+
+And this finding at the Hawthorne Works led
+future researchers to be much more aware of how
+their own presence influenced their findings.
+
+And to this day, the influence of an observer
+on the behavior of her participants is known
+as the Hawthorne Effect!
+
+Thanks Thought Bubble!
+
+So, yes, studying humans and their behavior
+scientifically can be challenging.
+
+But yet another problem with positivist
+sociology is that not all social facts can be
+applied to all people, in all time periods.
+
+In other words, truth is not always objective.
+
+It’s like when you tell someone about your
+favorite book.
+
+If you’re trying to convince them that Harry Potter is
+“objectively” the best book series ever written, then you
+don’t know what the word “objectively” means at all.
+
+There is no objective truth about what the
+best book is.
+
+That’s strictly subjective – an idea that’s
+built on your own experiences and feelings.
+
+But as sociologists, we still find subjective
+experiences to be valid, and important,
+
+and even worth studying – even if we can’t
+generalize them into some capital-T truth
+about the world.
+
+Instead, we might be interested in how
+patterns in people’s subjective experiences form
+the structures that make up our social world.
+
+In sociology, we talk about subjectivity as
+the meaning that people give their own lived
+experiences.
+
+And this brings us to another way of doing
+sociology:
+
+Interpretative sociology is the study of society
+that focuses on the meanings that people attach
+to their social world.
+
+While positivist sociology is more interested in
+whether a person acts a certain way – something
+you can see as an outside observer –
+
+interpretative sociology asks:
+Why this behavior?
+
+What’s the meaning behind it?
+
+And how do people view their own actions and
+thoughts?
+
+Interpretative sociologists approach their subjects
+with the aim of seeing the world from their subject’s
+perspective, rather than through quantitative data.
+
+So, there are fewer statistics involved in
+this type of research.
+
+Instead, interpretative sociologists often
+use interviews or face-to-face interactions with
+their subjects to understand the world.
+
+Now, there’s one more school of thought
+about how the science of sociology can be
+conducted.
+
+And it actually relaxes some of the
+assumptions we made early on about the
+objectivity of the researcher.
+
+These thinkers believe there’s plenty of room in
+sociology for subjectivity – especially, for values.
+
+Values are the ideas a person has about what’s good,
+and the attitudes they hold about how the world works.
+
+And curiosity about a research topic often
+springs from these very values.
+
+Many researchers are drawn to the study of
+sociology out of a desire to understand moral or
+political questions about how societies work.
+
+Like, what’s the relationship between race
+and poverty in the United States?
+
+How can understanding that relationship help
+break the connection between race and poverty?
+
+The argument for value-driven research,
+rather than value-free research, is one of the
+origins of Critical Sociology,
+
+or the study of society that focuses on
+the need for social change.
+
+These ideas go back a long time, starting
+as early as the 19th century when Jane Addams
+developed the Hull House,
+
+an organization that not only provided
+things like housing and education to low-income
+people in Chicago,
+
+but also researched the causes of, and
+solutions to, the ills of poverty.
+
+We’ll explore all of these schools of thought
+throughout the rest of series.
+
+But for now, we talked about sociology as
+a science.
+
+We discussed positivist sociology and how
+sociologists use empirical evidence to explore
+questions about the social world.
+
+And we introduced two alternatives: interpretative
+sociology and critical sociology.
+
+Next time, we’re going to learn about how
+sociologists actually do their research.
+
+Crash Course Sociology is filmed in the Dr. Cheryl
+C. Kinney Crash Course Studio in Missoula, MT,
+
+and it's made with the help of all these
+nice people.
+
+Our animation team is Thought Cafe and Crash
+Course is made with Adobe Creative Cloud.
+
+If you'd like to keep Crash Course free for
+everyone, forever, you can support the series
+
+at Patreon, a crowdfunding platform that allows
+you to support the content you love.
+
+Speaking of Patreon, we'd like to thank all
+of our patrons in general, and we'd like to
+
+specifically thank our Headmaster of Learning
+David Cichowski.
+
+Thank you for your support.
+

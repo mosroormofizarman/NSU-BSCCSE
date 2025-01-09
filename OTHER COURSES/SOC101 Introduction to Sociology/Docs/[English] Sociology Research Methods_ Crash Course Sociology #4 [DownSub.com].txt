@@ -1,0 +1,450 @@
+Do you think you’re middle class?
+
+If you’re American, there’s a pretty good
+chance that you do.
+
+In a survey conducted by the Pew Research
+Center in 2015, 87% of those surveyed identified
+themselves as middle class.
+
+That’s a pretty big middle.
+
+But your intuition about what the middle class is –
+like who it includes, and what constitutes a middle
+class lifestyle – probably isn’t the full picture.
+
+And a lot of questions that sociologists try to
+answer are questions just like this – questions that
+you think you know the answer to already.
+
+Many a person has played the armchair
+sociologist at some point in their lives –
+
+spouting off about how they think “Society
+Really Works” because of their own experience.
+
+Or the experience of their friend’s brother’s
+roommate.
+
+We all do it.
+
+But having personal opinions about the world
+doesn’t make you a sociologist.
+
+Sorry.
+
+This is where sociological research comes
+in:
+
+It helps us understand society’s patterns,
+even when they go against our intuitions.
+
+Rather than using our gut to answer questions, we
+use a research method, a systematic plan for gathering
+and analyzing observations about the world.
+
+This is where we’re gonna learn how to do
+sociology!
+
+[Theme Music]
+
+First things first: Research starts with a
+question.
+
+And the key to deciding on a question is defining
+the concepts that you’re studying, and making sure
+that both you and your audience agree on what
+those concepts mean.
+
+It’s like that thing with The Dress.
+
+Some people thought it looked black and blue,
+and other people thought it looked white and gold.
+
+It turns out that some things that seem totally
+objective just aren’t.
+
+And this becomes infinitely more complicated when you replace the concepts of blue or gold with concepts like the economy, poverty, parenting, education, or love.
+
+So, what if the way I am defining poverty
+isn’t how you’re imagining poverty?
+
+What if we’re all seeing different levels of well-being
+as being “poor,” but we refer to them all as “poverty”?
+
+That won’t work.
+
+So you have to define your concepts, which
+becomes even more important when you get to
+the next part of the research process:
+
+Stating a hypothesis – a statement of a
+possible relationship between two variables.
+
+A variable is just something that can take
+on many different values – it varies.
+
+Hence, the name!
+
+So before you can assign a value to a variable,
+you have to operationalize it.
+
+That is, you have to define the exact variable you’re
+going to measure, and exactly how you will measure it.
+
+For example, you can operationalize a variable
+that you want to use to understand relationships,
+by defining it as “reported marital status.”
+
+Only then can you assign each person in your sample
+a number corresponding to their relationship status.
+
+Like 0 if they’re married, 1 if they’re
+divorced, 2 if they’ve never been married,
+etc., etc., until every person is labelled.
+
+And what value a variable takes on is called
+its measurement.
+
+You can measure someone’s height, you can
+measure someone’s income, and you can measure
+someone’s relationship status.
+
+It doesn’t matter how many categories your
+variable has: 0, 1, 2, 3, 4 whatever.
+
+What’s important is that the way you define
+your categories is both reliable and valid.
+
+Suppose you decide to use Facebook relationship
+status as your measure of relationship status among
+your subjects.
+
+For your measurement to be reliable, you have
+to be consistent in how you measure the variable.
+
+So, here’s what not to do:
+
+Say you have two categories for relationship
+status: Single or Not Single.
+
+Two different sociologists are going through the
+data, assigning values based on Facebook status.
+
+One decides that people who say “It’s
+Complicated” get the label “Not Single,”
+
+while the other decides that these people
+should be called “Single.”
+
+That’s not consistent.
+
+Every person with the same characteristics
+– in this case, the same relationship status –
+needs to be assigned the same value.
+
+And for your measurement to be valid, it has to
+actually measure something that directly reflects
+the concept that you’re trying to study.
+
+Facebook relationship status may be a useful
+measure of whether someone’s single or not,
+
+but it’s not a valid measure of, say, their
+political views.
+
+Once you know how you want to measure your variables, your hypothesis will be an educated guess about how they’re related – often using an if-then statement.
+
+Here’s an example of a hypothesis, based
+on what I was talking about earlier:
+
+If someone lives in a city, then they are less
+likely to refer themselves as middle class.
+
+In this case, geographic location is what
+we call the independent variable;
+
+it’s the variable that we think is affecting
+the change in how people describe themselves.
+
+But you can also have variables that you believe
+are affected by changes in your independent variable;
+these are your dependent variables.
+
+Your hypothesis is that they change when the
+independent variable changes.
+
+But you have to be careful because correlation
+does not always equal causation.
+
+Correlation is what happens when two variables
+move together.
+
+It can be easy to misinterpret a correlation
+to conclude that one thing causes the other,
+when it really doesn’t.
+
+For example, murder rates tend to be high
+when ice cream sales are high.
+
+But it’s ridiculous to think that more ice
+cream causes more violence – or vice versa.
+
+What’s missing is a third variable: heat.
+
+More people commit crimes during hot months,
+and more people buy ice cream then too.
+
+OK! Once you have your hypothesis, and you
+know what types of variables you need to test it,
+you’re at your next step:
+
+Collecting your data.
+
+There are four main ways that sociologists
+collect data:
+
+Experiments, Surveys, Participant Observation,
+and Existing Resources.
+
+Experiments in sociology work much as they
+do in the natural sciences, just with humans as
+subjects instead of mice or atoms of beryllium.
+
+Let’s go to the Thought Bubble to see a real life
+example of how a sociology experiment works!
+
+In the 1990s, the US Department of Housing
+and Urban Development conducted an experiment
+known as The Moving to Opportunity study.
+
+In it, social scientists randomly assigned
+low-income families into a control group or
+one of two experimental groups.
+
+One group was a control group, which means
+nothing was changed in their environments.
+
+This allowed for a comparison between them
+and the experimental groups.
+
+They received a housing voucher that
+allowed them to move to cheaper housing –
+
+often in a better neighborhood than they
+were currently in – if they wanted to.
+
+Then, a whole bunch of data was collected
+– and is still being collected –
+
+on many different short and long term
+outcomes, including earnings, children’s educations,
+and health outcomes.
+
+These outcomes are the experiment’s
+dependent variables.
+
+So we have one independent variable –
+receiving the voucher or not –
+
+and a bunch of possible dependent variables,
+like earnings, education, and health outcomes.
+
+In an experiment, if the change you predicted occurs
+for the experimental group but not for the control group,
+then your experiment supports your hypothesis.
+
+And in the HUD experiment, sociologists compared
+how the measures of well-being changed for the control
+group, compared to those for the experimental group.
+
+One of the findings:
+
+those who received a voucher had better
+mental health outcomes – such as lower rates
+of depression – than those who didn’t.
+
+The data from Moving to Opportunity continues to
+be studied to this day and is a key source of research
+into how neighborhoods affect families’ well-being.
+
+Thanks Thought Bubble!
+
+The second method that researchers use is
+a survey, where people respond to a set of
+prepared questions.
+
+Typically, researchers are interested in the
+responses of a specific group of people –
+what we call the population of interest.
+
+Women aged 18 to 35. Veterans.
+Left-handed people. Youtubers.
+
+Whoever your research question is about, this
+is your population.
+
+But it’s unlikely you’ll be able to survey
+the WHOLE population.
+
+Even government-run surveys, like the Census,
+don’t reach everyone.
+
+So instead, you survey a sample – a smaller
+group that’s representative of the population.
+
+And a survey can take many forms.
+
+There can be open-ended questions, or Yes
+or No questions.
+
+The questions can appear in many different
+orders, or be phrased in different ways.
+
+So, sociologists have to think carefully
+about these things –
+
+and about whether the structure of their survey
+might bias the respondents’ answers.
+
+Now, some research takes place in a much less
+controlled environment.
+
+Tons of sociology research is done “in the field,”
+through our third method, participant observation.
+
+Participant observation is when researchers
+observe people by joining them in their daily routines.
+
+The result of this type of research is called
+an ethnography.
+
+Researchers try to integrate themselves into
+a community, hanging out with their subjects,
+working with them, and so on.
+
+They’re both observers and participants.
+
+This type of data-collection tends to be exploratory
+and descriptive.
+
+You’re not trying to prove a specific hypothesis.
+
+Instead you’re trying to understand the
+lifestyle of your subject.
+
+Some say that this type of research is too subjective,
+
+but a major benefit of doing fieldwork is that it
+lets you to gain insights into people’s behavior, in the
+real world, in a way that experiments won’t.
+
+Take, for example, sociologist Alice Goffman’s
+field work in Philadelphia.
+
+She spent six years living in a low-income,
+crime-ridden neighborhood in West Philadelphia
+
+where she befriended and lived with two
+young African American men
+
+and documented the ways the criminal justice system intersected and disrupted the lives of them, their families, and other members of the neighborhood.
+
+The documentation of lived experience like
+that can provide insights that you just couldn’t
+get simply from looking at statistics.
+
+Now, there’s one thing that’s important
+note about these three types of research:
+
+When researchers interact with their subjects,
+whether it’s through an experiment, an interview,
+
+or participant observation, they have to take
+seriously the ethics of their research.
+
+Sociologists are answerable to an
+Institutional Review Board,
+
+which ensures that all researchers take the privacy
+and well-being of their subjects into consideration
+when they design their research methods.
+
+For example, informed consent of the subject
+is a must.
+
+This means that your subjects must know you’re
+observing them, and must be made aware of any
+risks they take by being part of your study.
+
+Not all research methods require you to interact
+with subjects though, or even collect your own data.
+
+Many sociologists analyze existing sources
+of data, collected by others.
+
+The most common of these sources is government
+agencies, which collect statistics on income, health,
+education, employment, marriage, fertility –
+
+I could keep going.
+
+The point is, these data sets are much larger
+and cover more years than an individual researcher
+could collect on their own.
+
+Plus, it saves time and money for the researcher.
+
+Once you’ve collected your data using one of these
+methods, the final step is turning that data into
+information that helps answer your question of interest.
+
+You can do this in two ways: through inductive
+or deductive logical thought.
+
+Inductive logical thought takes your observations
+and uses them to build a theory.
+
+You start with data and then use them to form
+an idea about how the world works.
+
+For example, seeing the results of the Moving to Opportunity study might prompt a researcher to theorize that the neighborhood a person lives in is a key factor in their mental health.
+
+Deductive logical thought, meanwhile, uses an
+existing theory to inform the hypothesis you test.
+
+In this case, you start with a theory and you
+collect data that allows you to test the theory.
+
+Theories about the relationship between where you live and your child’s well-being is part of what prompted the government to not just collect data on the heads of household in the HUD study, but also on their children.
+
+And these two types of reasoning are not mutually
+exclusive;
+
+within one study, a researcher will use both
+to develop theories about the social world.
+
+And guess what?
+You’re done!
+
+Today we discussed the research method:
+
+form a question and a hypothesis, collect
+data, and analyze that data to contribute
+to your theories about society.
+
+Crash Course Sociology is filmed in the Dr. Cheryl
+C. Kinney Crash Course Studio in Missoula, MT,
+and it's made with the help of all these nice people.
+
+Our animation team is Thought Cafe and Crash
+Course is made with Adobe Creative Cloud.
+
+If you'd like to keep Crash Course free for everyone, forever, you can support the series at Patreon, a crowdfunding platform that allows you to support the content you love.
+
+Speaking of Patreon, we'd like to thank all of our
+patrons in general, and we'd like to specifically thank
+our Headmaster of Learning David Cichowski.
+
+Thank you for your support.
+
